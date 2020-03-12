@@ -193,16 +193,29 @@ h3{
     padding-left: 60px;
 }
 
-.primary-right ul li:before{ 
-    content:"\2714\0020"; 
-    color: #5EBD8A;
-    font-size: 22px;
+.tick{
+    background: url("../../assets/media/right.png");
+    background-repeat: no-repeat;
+}
+
+.primary-right span{
+    padding-left: 32px;
 }
 
 .primary-right li{
     font-size: 18px;
     margin-bottom: 33px;
 }
+
+/* .primary-right ul li:before{ 
+    content:"\2714\0020"; 
+    color: #5EBD8A;
+    font-size: 22px;
+}
+
+ */
+
+
 
 /* Secondary Section */
 .secondary-section{
@@ -310,13 +323,26 @@ h3{
     padding-right: 200px;
 }
 
-.tertiary-right li{
+/* .tertiary-right li{
     margin-bottom: 18px;
 }
 
 .icons{
     font-size: 22px;
     margin-right: 30px;
+} */
+.social-menu li{
+    display: flex;
+    margin:16px;
+}
+
+.social-menu .icons{
+    margin-right: 32px;
+    
+}
+
+.social-menu a{
+    color: rgb(128, 125, 125);
 }
 
 /* Footer */
